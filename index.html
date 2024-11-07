@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+
+
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: bisque; */
+            margin-top: 200px;
+        }
+        .timediv{
+            /* background-color: aqua; */
+            height:50px;
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .drop{
+             height: 30px;
+             width: 150px;
+             border-radius: 20px;
+             border: 1px solid rgba(255, 0, 0, 0);
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        
+        <div class="timediv">
+            <select class="drop" onchange="clicked()" name="" id="minute"> </select>
+            <select class="drop" onchange="clicked()" name="" id="hour"> </select>
+            <select class="drop" onchange="clicked()" name="" id="Date"> </select>
+            <select class="drop" onchange="clicked()" name="" id="month"> </select>
+            <select class="drop" onchange="clicked()" name="" id="day"> </select>
+            <select class="drop" onchange="clicked()" name="" id="year"> </select>
+    
+        </div>
+    </div>
+   
+    
+
+
+
+    <script src="/Time-Proj/time.js"></script>
+</body>
+</html>
